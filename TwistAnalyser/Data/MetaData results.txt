@@ -1,0 +1,4 @@
+﻿
+Average angle: 	0
+
+Average Translation: 	0

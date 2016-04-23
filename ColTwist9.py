@@ -1,4 +1,4 @@
-#!/home/max/anaconda3/bin/python3
+#Version running on server
 
 import cgitb
 cgitb.enable()

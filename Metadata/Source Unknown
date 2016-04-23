@@ -1,0 +1,50 @@
+﻿
+Source Unknown
+
+ n= 1
+
+
+Average angle: 	-103.08041313752047
+Average Translation: 	2.8452060440032687
+
+Step	Frequency
+G00 	47
+G22 	829
+G21 	71
+G10 	31
+G20 	0
+G11 	69
+Total steps 	1047
+
+
+Step	Frequency (%)
+G00 	4.49
+G22 	79.18
+G21 	6.78
+G10 	2.96
+G20 	0.0
+G11 	6.59
+
+aa	%composition
+A	1.39
+T	0.03
+V	0.01
+E	1.39
+W	0.00
+M	0.01
+I	0.00
+S	0.00
+P	55.50
+N	0.00
+F	0.01
+X	2.32
+D	0.58
+Q	0.01
+Z	0.00
+H	0.00
+C	0.00
+R	0.01
+L	3.92
+K	2.66
+G	32.17
+Y	0.00

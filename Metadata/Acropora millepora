@@ -1,0 +1,50 @@
+﻿
+Acropora millepora
+
+ n= 1
+
+
+Average angle: 	-106.39408866995045
+Average Translation: 	2.8822331691297305
+
+Step	Frequency
+G20 	0
+G22 	25
+G21 	39
+G00 	267
+G11 	166
+G10 	112
+Total steps 	609
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	4.11
+G21 	6.4
+G00 	43.84
+G11 	27.26
+G10 	18.39
+
+aa	%composition
+A	4.26
+R	4.92
+S	5.25
+Q	4.59
+I	1.97
+X	0.00
+F	0.00
+W	0.16
+K	4.92
+P	18.14
+Y	0.16
+L	2.30
+D	5.25
+G	33.50
+H	0.00
+T	4.10
+Z	0.00
+M	1.48
+V	1.64
+E	5.57
+C	0.00
+N	1.80

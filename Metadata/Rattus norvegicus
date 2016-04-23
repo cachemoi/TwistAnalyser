@@ -1,0 +1,50 @@
+﻿
+Rattus norvegicus
+
+ n= 1
+
+
+Average angle: 	-106.08962966285434
+Average Translation: 	2.8789040364376897
+
+Step	Frequency
+G20 	0
+G22 	466
+G21 	700
+G00 	2659
+G11 	2169
+G10 	1437
+Total steps 	7431
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	6.27
+G21 	9.42
+G00 	35.78
+G11 	29.19
+G10 	19.34
+
+aa	%composition
+A	8.84
+R	5.07
+S	3.10
+Q	3.29
+I	1.40
+X	0.00
+F	1.25
+W	0.01
+K	3.74
+P	21.32
+Y	0.20
+L	3.07
+D	3.20
+G	33.68
+H	0.48
+T	2.22
+Z	0.00
+M	0.74
+V	1.97
+E	4.87
+C	0.00
+N	1.54

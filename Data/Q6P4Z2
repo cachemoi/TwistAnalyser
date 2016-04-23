@@ -1,0 +1,44 @@
+﻿Xenopus tropicalis
+
+Step	Frequency (%)
+G20 	0.0
+G22 	4.47
+G21 	7.67
+G00 	38.17
+G11 	31.05
+G10 	18.63
+
+Total number of steps	1095
+
+Average Angle 	-106.21
+Average Translation 	2.88
+
+Strand 1 length 	1096
+Strand 2 length 	1096
+Strand 3 length 	1096
+
+Number of P in Strand 	666
+
+aa	%composition
+A	8.70
+R	5.11
+S	3.80
+Q	3.80
+I	1.00
+X	0.00
+F	1.37
+W	0.00
+K	3.92
+P	20.26
+Y	0.18
+L	3.01
+D	3.56
+G	33.70
+H	0.27
+T	2.55
+Z	0.00
+M	0.55
+V	1.73
+E	5.02
+C	0.00
+N	1.46

@@ -1,0 +1,50 @@
+﻿
+Canis lupus
+
+ n= 1
+
+
+Average angle: 	-106.08247874038993
+Average Translation: 	2.878861713236616
+
+Step	Frequency
+G20 	0
+G22 	138
+G21 	186
+G00 	760
+G11 	631
+G10 	421
+Total steps 	2136
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	6.46
+G21 	8.71
+G00 	35.58
+G11 	29.54
+G10 	19.71
+
+aa	%composition
+A	10.24
+R	5.19
+S	3.30
+Q	2.52
+I	1.36
+X	0.00
+F	1.23
+W	0.00
+K	3.13
+P	21.77
+Y	0.14
+L	2.53
+D	2.76
+G	33.66
+H	0.47
+T	2.25
+Z	0.00
+M	0.65
+V	2.52
+E	4.49
+C	0.00
+N	1.78

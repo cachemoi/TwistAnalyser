@@ -1,0 +1,50 @@
+﻿
+Gallus gallus
+
+ n= 1
+
+
+Average angle: 	-105.98184671678351
+Average Translation: 	2.877315297631902
+
+Step	Frequency
+G20 	0
+G22 	219
+G21 	317
+G00 	1025
+G11 	894
+G10 	575
+Total steps 	3030
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	7.23
+G21 	10.46
+G00 	33.83
+G11 	29.5
+G10 	18.98
+
+aa	%composition
+A	8.38
+R	4.89
+S	3.65
+Q	2.53
+I	1.13
+X	0.00
+F	1.32
+W	0.00
+K	3.40
+P	23.85
+Y	0.21
+L	2.33
+D	2.52
+G	34.27
+H	0.57
+T	1.68
+Z	0.05
+M	0.92
+V	1.20
+E	4.62
+C	0.17
+N	2.30

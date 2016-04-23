@@ -1,0 +1,44 @@
+﻿Homo sapiens
+
+Step	Frequency (%)
+G20 	0.0
+G22 	3.04
+G21 	6.08
+G00 	47.11
+G11 	24.62
+G10 	19.15
+
+Total number of steps	987
+
+Average Angle 	-106.53
+Average Translation 	2.88
+
+Strand 1 length 	988
+Strand 2 length 	988
+Strand 3 length 	988
+
+Number of P in Strand 	488
+
+aa	%composition
+A	2.63
+R	4.25
+S	2.94
+Q	5.06
+I	4.05
+X	0.00
+F	1.52
+W	0.10
+K	6.04
+P	16.46
+Y	0.91
+L	5.87
+D	2.83
+G	33.64
+H	1.01
+T	2.23
+Z	0.00
+M	1.01
+V	2.36
+E	5.77
+C	0.10
+N	1.21

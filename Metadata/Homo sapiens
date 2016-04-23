@@ -1,0 +1,50 @@
+﻿
+Homo sapiens
+
+ n= 1
+
+
+Average angle: 	-106.11762023066808
+Average Translation: 	2.879245144292891
+
+Step	Frequency
+G20 	0
+G22 	725
+G21 	1086
+G00 	4259
+G11 	3318
+G10 	2243
+Total steps 	11631
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	6.23
+G21 	9.34
+G00 	36.62
+G11 	28.53
+G10 	19.28
+
+aa	%composition
+A	7.45
+R	4.63
+S	3.46
+Q	3.28
+I	1.74
+X	0.00
+F	1.18
+W	0.02
+K	4.20
+P	21.79
+Y	0.44
+L	2.90
+D	3.07
+G	34.18
+H	0.63
+T	1.74
+Z	0.00
+M	0.95
+V	1.53
+E	5.05
+C	0.02
+N	1.75

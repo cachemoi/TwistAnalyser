@@ -1,0 +1,44 @@
+﻿Gallus gallus
+
+Step	Frequency (%)
+G20 	0.0
+G22 	6.77
+G21 	8.56
+G00 	35.32
+G11 	29.25
+G10 	20.1
+
+Total number of steps	1005
+
+Average Angle 	-106.07
+Average Translation 	2.88
+
+Strand 1 length 	1006
+Strand 2 length 	1006
+Strand 3 length 	1006
+
+Number of P in Strand 	660
+
+aa	%composition
+A	9.54
+R	5.53
+S	2.58
+Q	1.89
+I	1.89
+X	0.00
+F	1.29
+W	0.00
+K	2.98
+P	21.87
+Y	0.13
+L	3.08
+D	2.29
+G	33.73
+H	0.80
+T	1.79
+Z	0.00
+M	0.40
+V	2.68
+E	4.84
+C	0.00
+N	2.68

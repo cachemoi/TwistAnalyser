@@ -1,0 +1,44 @@
+﻿Cynops pyrrhogaster
+
+Step	Frequency (%)
+G20 	0.0
+G22 	5.48
+G21 	9.25
+G00 	36.83
+G11 	29.37
+G10 	19.07
+
+Total number of steps	1059
+
+Average Angle 	-106.14
+Average Translation 	2.88
+
+Strand 1 length 	1060
+Strand 2 length 	1060
+Strand 3 length 	1060
+
+Number of P in Strand 	675
+
+aa	%composition
+A	10.28
+R	5.00
+S	5.35
+Q	2.64
+I	0.57
+X	0.00
+F	1.23
+W	0.00
+K	3.58
+P	21.23
+Y	0.09
+L	1.70
+D	2.96
+G	33.99
+H	0.28
+T	1.79
+Z	0.00
+M	0.85
+V	1.29
+E	5.19
+C	0.09
+N	1.89

@@ -1,0 +1,50 @@
+﻿
+Ephydatia muelleri
+
+ n= 1
+
+
+Average angle: 	-106.51929824561381
+Average Translation: 	2.883438596491222
+
+Step	Frequency
+G20 	0
+G22 	6
+G21 	11
+G00 	131
+G11 	85
+G10 	52
+Total steps 	285
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	2.11
+G21 	3.86
+G00 	45.96
+G11 	29.82
+G10 	18.25
+
+aa	%composition
+A	9.44
+R	2.45
+S	3.15
+Q	5.59
+I	1.75
+X	0.00
+F	0.70
+W	0.00
+K	4.90
+P	16.43
+Y	0.35
+L	2.45
+D	6.29
+G	33.68
+H	0.00
+T	3.50
+Z	0.00
+M	1.05
+V	5.83
+E	1.75
+C	0.00
+N	0.70

@@ -1,0 +1,44 @@
+﻿Bos taurus
+
+Step	Frequency (%)
+G20 	0.0
+G22 	8.26
+G21 	9.29
+G00 	33.61
+G11 	30.08
+G10 	18.76
+
+Total number of steps	1077
+
+Average Angle 	-105.97
+Average Translation 	2.88
+
+Strand 1 length 	1078
+Strand 2 length 	1078
+Strand 3 length 	1078
+
+Number of P in Strand 	753
+
+aa	%composition
+A	11.41
+R	5.01
+S	3.22
+Q	2.88
+I	0.83
+X	0.00
+F	1.39
+W	0.00
+K	3.43
+P	23.28
+Y	0.09
+L	1.95
+D	3.09
+G	33.52
+H	0.19
+T	1.67
+Z	0.00
+M	0.74
+V	1.55
+E	4.64
+C	0.00
+N	1.11

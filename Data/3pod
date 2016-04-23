@@ -1,0 +1,44 @@
+﻿Source Unknown
+
+Step	Frequency (%)
+G00 	4.35
+G22 	73.91
+G21 	13.04
+G10 	8.7
+G20 	0.0
+G11 	0.0
+
+Total number of steps	23
+
+Average Angle 	-103.37
+Average Translation 	2.85
+
+Strand 1 length 	24
+Strand 2 length 	24
+Strand 3 length 	24
+
+Number of P in Strand 	39
+
+aa	%composition
+A	0.00
+T	0.00
+V	0.00
+E	0.00
+W	0.00
+M	0.00
+I	0.00
+S	0.00
+P	56.94
+N	0.00
+F	0.00
+X	2.78
+D	0.00
+Q	0.00
+Z	0.00
+H	0.00
+C	0.00
+R	0.00
+L	4.17
+K	4.17
+G	31.94
+Y	0.00

@@ -1,0 +1,44 @@
+﻿Xenopus laevis
+
+Step	Frequency (%)
+G20 	0.0
+G22 	4.84
+G21 	7.31
+G00 	39.0
+G11 	30.41
+G10 	18.45
+
+Total number of steps	1095
+
+Average Angle 	-106.22
+Average Translation 	2.88
+
+Strand 1 length 	1096
+Strand 2 length 	1096
+Strand 3 length 	1096
+
+Number of P in Strand 	660
+
+aa	%composition
+A	8.15
+R	5.20
+S	4.62
+Q	3.89
+I	1.09
+X	0.00
+F	1.46
+W	0.00
+K	3.83
+P	20.07
+Y	0.18
+L	2.74
+D	3.47
+G	33.70
+H	0.18
+T	2.37
+Z	0.00
+M	0.55
+V	1.82
+E	5.11
+C	0.00
+N	1.55

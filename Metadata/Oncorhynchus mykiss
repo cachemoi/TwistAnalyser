@@ -1,0 +1,50 @@
+﻿
+Oncorhynchus mykiss
+
+ n= 1
+
+
+Average angle: 	-106.54409820585504
+Average Translation: 	2.883814919735629
+
+Step	Frequency
+G20 	0
+G22 	16
+G21 	70
+G00 	496
+G11 	287
+G10 	190
+Total steps 	1059
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	1.51
+G21 	6.61
+G00 	46.84
+G11 	27.1
+G10 	17.94
+
+aa	%composition
+A	10.47
+R	5.47
+S	4.72
+Q	2.39
+I	1.42
+X	0.00
+F	1.04
+W	0.00
+K	3.21
+P	16.32
+Y	0.19
+L	2.99
+D	2.61
+G	35.97
+H	1.04
+T	2.64
+Z	0.00
+M	1.04
+V	1.98
+E	3.77
+C	0.00
+N	2.74

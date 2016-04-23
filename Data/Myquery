@@ -1,0 +1,44 @@
+﻿Lorel Ipsum
+
+Step	Frequency (%)
+G21 	0.0
+G00 	58.82
+G10 	5.88
+G22 	5.88
+G11 	0.0
+G20 	29.41
+
+Total number of steps	17
+
+Average Angle 	-106.74
+Average Translation 	2.88
+
+Strand 1 length 	36
+Strand 2 length 	35
+Strand 3 length 	34
+
+Number of P in Strand 	8
+
+aa	%composition
+F	2.86
+S	1.90
+Z	0.00
+W	0.00
+V	0.00
+E	5.71
+C	0.00
+P	31.43
+Y	0.00
+G	34.29
+D	0.00
+H	0.00
+X	0.00
+I	0.00
+M	3.81
+N	0.00
+A	5.71
+R	2.86
+K	0.00
+T	0.00
+L	2.86
+Q	5.71

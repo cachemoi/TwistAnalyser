@@ -1,0 +1,50 @@
+﻿
+Danio rerio
+
+ n= 1
+
+
+Average angle: 	-106.5207295460183
+Average Translation: 	2.8836896371090726
+
+Step	Frequency
+G20 	0
+G22 	49
+G21 	112
+G00 	910
+G11 	521
+G10 	364
+Total steps 	1956
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	2.51
+G21 	5.73
+G00 	46.52
+G11 	26.64
+G10 	18.61
+
+aa	%composition
+A	3.27
+R	4.17
+S	2.81
+Q	3.78
+I	3.37
+X	0.00
+F	1.99
+W	0.00
+K	6.69
+P	16.51
+Y	0.31
+L	4.88
+D	3.83
+G	33.44
+H	0.87
+T	1.94
+Z	0.00
+M	1.74
+V	3.42
+E	5.57
+C	0.00
+N	1.42

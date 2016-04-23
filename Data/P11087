@@ -1,0 +1,44 @@
+﻿Mus musculus
+
+Step	Frequency (%)
+G20 	0.0
+G22 	7.71
+G21 	9.66
+G00 	33.98
+G11 	29.71
+G10 	18.94
+
+Total number of steps	1077
+
+Average Angle 	-105.99
+Average Translation 	2.88
+
+Strand 1 length 	1078
+Strand 2 length 	1078
+Strand 3 length 	1078
+
+Number of P in Strand 	744
+
+aa	%composition
+A	10.48
+R	4.92
+S	3.77
+Q	2.78
+I	0.74
+X	0.00
+F	1.39
+W	0.00
+K	3.43
+P	23.01
+Y	0.09
+L	2.04
+D	3.18
+G	33.43
+H	0.19
+T	1.95
+Z	0.00
+M	0.74
+V	1.73
+E	4.73
+C	0.00
+N	1.39

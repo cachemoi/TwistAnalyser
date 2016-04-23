@@ -1,0 +1,44 @@
+﻿Rattus norvegicus
+
+Step	Frequency (%)
+G20 	0.0
+G22 	7.43
+G21 	9.66
+G00 	34.26
+G11 	29.71
+G10 	18.94
+
+Total number of steps	1077
+
+Average Angle 	-106.01
+Average Translation 	2.88
+
+Strand 1 length 	1078
+Strand 2 length 	1078
+Strand 3 length 	1078
+
+Number of P in Strand 	738
+
+aa	%composition
+A	10.58
+R	4.82
+S	3.87
+Q	2.97
+I	0.74
+X	0.00
+F	1.39
+W	0.00
+K	3.43
+P	22.82
+Y	0.09
+L	1.95
+D	3.18
+G	33.33
+H	0.19
+T	1.95
+Z	0.00
+M	0.74
+V	1.82
+E	4.73
+C	0.00
+N	1.39

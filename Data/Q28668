@@ -1,0 +1,44 @@
+﻿Oryctolagus cuniculus
+
+Step	Frequency (%)
+G20 	0.0
+G22 	5.24
+G21 	6.74
+G00 	38.2
+G11 	27.72
+G10 	22.1
+
+Total number of steps	267
+
+Average Angle 	-106.22
+Average Translation 	2.88
+
+Strand 1 length 	268
+Strand 2 length 	268
+Strand 3 length 	268
+
+Number of P in Strand 	159
+
+aa	%composition
+A	9.70
+R	4.85
+S	4.10
+Q	3.36
+I	1.87
+X	0.00
+F	0.37
+W	0.00
+K	2.61
+P	19.78
+Y	0.75
+L	4.48
+D	2.86
+G	33.71
+H	1.87
+T	1.87
+Z	0.00
+M	0.00
+V	2.99
+E	2.99
+C	0.00
+N	1.87

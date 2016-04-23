@@ -1,0 +1,50 @@
+﻿
+Mus musculus
+
+ n= 1
+
+
+Average angle: 	-106.1368021662992
+Average Translation: 	2.8794079950270053
+
+Step	Frequency
+G20 	0
+G22 	599
+G21 	958
+G00 	3883
+G11 	3083
+G10 	2031
+Total steps 	10554
+
+
+Step	Frequency (%)
+G20 	0.0
+G22 	5.68
+G21 	9.08
+G00 	36.79
+G11 	29.21
+G10 	19.24
+
+aa	%composition
+A	5.70
+R	4.85
+S	3.26
+Q	3.57
+I	1.46
+X	0.00
+F	1.03
+W	0.00
+K	4.57
+P	20.69
+Y	0.27
+L	3.87
+D	3.43
+G	33.76
+H	0.90
+T	2.59
+Z	0.00
+M	0.98
+V	2.68
+E	5.11
+C	0.00
+N	1.26

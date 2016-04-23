@@ -1,8 +1,0 @@
-
-codes with issues: 1cag |PPGPPGPPGPPGPPAPPGPPGPPGPPGPPG, 1cgd |PPGPPGPPGPPGPPAPPGPPGPPGPPGPPG
-
-G.. times five does not apply to some strands ---> gives divide by zero error
-
-only works for homotrimers
-
-the first part of the input fasta is empty split_seq[0] = None

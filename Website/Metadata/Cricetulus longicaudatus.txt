@@ -1,0 +1,50 @@
+﻿
+Cricetulus longicaudatus
+
+ n= 1
+
+
+Average angle: 	-106.44190735694933
+Average Translation: 	2.882735694822859
+
+Step	Frequency
+G11 	431
+G22 	91
+G00 	859
+G10 	306
+G20 	0
+G21 	148
+Total steps 	1835
+
+
+Step	Frequency (%)
+G11 	23.49
+G22 	4.96
+G00 	46.81
+G10 	16.68
+G20 	0.0
+G21 	8.07
+
+aa	%composition
+T	3.65
+S	3.97
+N	1.90
+F	2.23
+H	0.82
+G	23.20
+P	18.01
+R	3.86
+L	5.37
+D	5.91
+E	6.37
+I	2.83
+M	1.32
+C	0.65
+W	0.38
+A	4.62
+Q	4.24
+Z	0.00
+K	5.17
+Y	2.18
+X	0.00
+V	3.32

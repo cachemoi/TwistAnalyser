@@ -1,0 +1,50 @@
+﻿
+Xenopus tropicalis
+
+ n= 1
+
+
+Average angle: 	-106.51739422431287
+Average Translation: 	2.8833848220282285
+
+Step	Frequency
+G11 	381
+G22 	58
+G00 	718
+G10 	242
+G20 	0
+G21 	90
+Total steps 	1489
+
+
+Step	Frequency (%)
+G11 	25.59
+G22 	3.9
+G00 	48.22
+G10 	16.25
+G20 	0.0
+G21 	6.04
+
+aa	%composition
+T	3.42
+S	4.56
+N	2.28
+F	1.90
+H	0.54
+G	27.05
+P	16.85
+R	4.70
+L	3.58
+D	4.50
+E	5.17
+I	2.21
+M	1.10
+C	1.28
+W	0.47
+A	8.19
+Q	4.09
+Z	0.00
+K	4.63
+Y	0.60
+X	0.00
+V	2.89

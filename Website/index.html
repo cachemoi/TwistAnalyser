@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' >
+    <meta charset="UTF-8">
+    <title>TwistAnalyser</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="TwistAnalyser.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</head>
+
+    <body class="center">
+        <ul class="navigation">
+            <li><a class="active"href="index.html">Tool</a></li>
+            <li><a href="Documentation.html">Documentation</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <h1>
+            <img src="twist%20analyser%20logo.png" alt="logo" style="width:220px;height:169px;">
+        </h1>
+
+        <div id="results">
+            <p id= "StepDistrib">
+            <table border="1" style="width:100%">
+                <tr>
+                    <th>Average Angle K (°)</th>
+                    <th>Average Translation t (Å)</th>
+                </tr>
+                <tr>
+                    <td id="AA"></td>
+                    <td id="AT"></td>
+                </tr>
+            </table>
+            </p>
+
+            <p id= "FreqDistrib">
+            <table border="1" style="width:100%">
+                <tr>
+                    <th>Step</th>
+                    <th>Frequency of occurence</th>
+                </tr>
+                <tr>
+                    <td>GP2-GP2</td>
+                    <td id="freqTwoTwo"></td>
+                </tr>
+                <tr>
+                    <td>GP2-GP1</td>
+                    <td id="freqTwoOne"></td>
+                </tr>
+                <tr>
+                    <td>GP2-GP0</td>
+                    <td id="freqTwoNull"></td>
+                </tr>
+                <tr>
+                    <td>GP1-GP1</td>
+                    <td id="freqOneOne"></td>
+                </tr>
+                <tr>
+                    <td>GP1-GP0</td>
+                    <td id="freqOneNull"></td>
+                </tr>
+                <tr>
+                    <td>GP0-GP0</td>
+                    <td id="freqNullNull"></td>
+                </tr>
+                <tr>
+                    <td>TOTAL</td>
+                    <td id="freqTotal"></td>
+                </tr>
+            </table>
+            </p>
+
+            <p id="PDistrib">
+
+            </p>
+            <h1>Triple helical twist diagram</h1>
+            <div id="angleChart"  style="width: 900px; height: 500px"></div>
+            <h1>Translation Diagram</h1>
+            <div id="translationChart"  style="width: 900px; height: 500px"></div>
+        </div>
+        <div id="input">
+            <p>
+                Strand 1 sequence: <input type="text" id="s1" value="GPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPGAS"><br>
+                Strand 2 sequence: <input type="text" id="s2" value="GPMGLMGPRGPPGAAGAPGPQGFQGPAGEPGEPGQ"><br>
+                Strand 3 sequence: <input type="text" id="s3" value="GPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPG"><br>
+
+
+                <button id= submitText type="button" onclick="userInput();publishTotalPValues();stepDistribCalc();
+                calculateAverages();publishDegreeDistrib();drawAngleChart();drawTranslationChart()">Submit data</button><br>
+
+                <strong>OR<br></strong>
+
+                Upload File: <input type="file" id="inputFile" /><br>
+
+                <button id= submitFile type="button" onclick="userInputFile();stepDistribCalc();
+                calculateAverages();publishDegreeDistrib();drawAngleChart();drawTranslationChart()">Submit data</button><br>
+                <button id= testB type="button" onclick="sendInput()">ServerComs</button>
+            </p>
+            <p>
+                <pre id="fileDisplayArea"></pre>
+            </p>
+        </div>
+</body>
+</html>

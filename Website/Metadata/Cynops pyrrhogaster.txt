@@ -1,0 +1,50 @@
+﻿
+Cynops pyrrhogaster
+
+ n= 1
+
+
+Average angle: 	-106.4694540428486
+Average Translation: 	2.8829716655148947
+
+Step	Frequency
+G11 	349
+G22 	69
+G00 	687
+G10 	238
+G20 	0
+G21 	104
+Total steps 	1447
+
+
+Step	Frequency (%)
+G11 	24.12
+G22 	4.77
+G00 	47.48
+G10 	16.45
+G20 	0.0
+G21 	7.19
+
+aa	%composition
+T	3.04
+S	5.66
+N	2.69
+F	1.75
+H	0.69
+G	27.21
+P	17.54
+R	4.70
+L	2.72
+D	4.42
+E	5.46
+I	1.80
+M	1.20
+C	1.38
+W	0.41
+A	8.84
+Q	2.97
+Z	0.00
+K	3.94
+Y	0.97
+X	0.00
+V	2.62

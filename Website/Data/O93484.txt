@@ -1,0 +1,44 @@
+﻿Oncorhynchus mykiss
+
+Step	Frequency (%)
+G11 	22.84
+G22 	1.4
+G00 	54.77
+G10 	15.67
+G20 	0.0
+G21 	5.32
+
+Total number of steps	1353
+
+Average Angle 	-106.78
+Average Translation 	2.89
+
+Strand 1 length 	1354
+Strand 2 length 	1354
+Strand 3 length 	1354
+
+Number of P in Strand 	561
+
+aa	%composition
+T	3.32
+S	5.39
+N	3.55
+F	1.75
+H	1.33
+G	30.06
+P	13.81
+R	5.32
+L	4.19
+D	3.47
+E	4.14
+I	2.29
+M	1.06
+C	0.59
+W	0.37
+A	9.82
+Q	2.81
+Z	0.00
+K	3.57
+Y	0.89
+X	0.00
+V	2.29

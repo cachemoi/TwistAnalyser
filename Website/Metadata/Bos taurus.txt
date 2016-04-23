@@ -1,0 +1,50 @@
+﻿
+Bos taurus
+
+ n= 1
+
+
+Average angle: 	-106.3415068493163
+Average Translation: 	2.8815205479452377
+
+Step	Frequency
+G21 	108
+G00 	656
+G11 	360
+G20 	0
+G22 	98
+G10 	238
+Total steps 	1460
+
+
+Step	Frequency (%)
+G21 	7.4
+G00 	44.93
+G11 	24.66
+G20 	0.0
+G22 	6.71
+G10 	16.3
+
+aa	%composition
+Q	3.49
+C	1.23
+M	0.84
+S	3.97
+L	3.38
+N	1.98
+K	3.90
+D	4.38
+Z	0.00
+R	4.79
+E	5.20
+Y	1.10
+F	1.60
+P	19.10
+W	0.41
+H	0.62
+T	3.01
+V	2.87
+A	9.79
+G	26.63
+X	0.00
+I	1.71

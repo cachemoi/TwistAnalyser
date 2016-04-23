@@ -1,0 +1,44 @@
+﻿Canis lupus
+
+Step	Frequency (%)
+G11 	24.23
+G22 	6.79
+G00 	45.23
+G10 	16.2
+G20 	0.0
+G21 	7.55
+
+Total number of steps	1457
+
+Average Angle 	-106.35
+Average Translation 	2.88
+
+Strand 1 length 	1458
+Strand 2 length 	1458
+Strand 3 length 	1458
+
+Number of P in Strand 	834
+
+aa	%composition
+T	3.22
+S	3.98
+N	2.13
+F	1.67
+H	0.55
+G	26.75
+P	19.07
+R	4.87
+L	3.18
+D	4.39
+E	5.08
+I	1.78
+M	0.98
+C	1.23
+W	0.41
+A	9.47
+Q	3.43
+Z	0.00
+K	3.84
+Y	1.10
+X	0.00
+V	2.88

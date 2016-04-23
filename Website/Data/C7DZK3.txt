@@ -1,0 +1,44 @@
+﻿Danio rerio
+
+Step	Frequency (%)
+G11 	22.44
+G22 	2.14
+G00 	53.04
+G10 	16.2
+G20 	0.0
+G21 	6.19
+
+Total number of steps	1778
+
+Average Angle 	-106.71
+Average Translation 	2.89
+
+Strand 1 length 	1781
+Strand 2 length 	1781
+Strand 3 length 	1781
+
+Number of P in Strand 	784
+
+aa	%composition
+T	4.88
+S	5.50
+N	2.40
+F	2.79
+H	1.57
+G	21.17
+P	14.77
+R	5.50
+L	8.16
+D	3.65
+E	4.21
+I	3.14
+M	1.20
+C	0.84
+W	0.45
+A	4.83
+Q	3.20
+Z	0.00
+K	6.40
+Y	0.56
+X	0.00
+V	4.77

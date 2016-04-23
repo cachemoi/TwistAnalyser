@@ -1,0 +1,44 @@
+﻿Ephydatia muelleri
+
+Step	Frequency (%)
+G11 	19.85
+G22 	2.02
+G00 	61.76
+G10 	13.79
+G20 	0.0
+G21 	2.57
+
+Total number of steps	544
+
+Average Angle 	-106.98
+Average Translation 	2.89
+
+Strand 1 length 	545
+Strand 2 length 	545
+Strand 3 length 	545
+
+Number of P in Strand 	189
+
+aa	%composition
+T	4.40
+S	6.06
+N	2.20
+F	2.87
+H	1.10
+G	22.63
+P	11.56
+R	3.49
+L	3.49
+D	6.42
+E	2.57
+I	3.49
+M	0.92
+C	1.28
+W	0.55
+A	8.99
+Q	5.14
+Z	0.00
+K	5.14
+Y	1.35
+X	0.00
+V	6.36

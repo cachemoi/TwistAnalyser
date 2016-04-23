@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' >
+    <meta charset="UTF-8">
+    <title>TwistAnalyser</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="TwistAnalyser2.js"></script>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body class="center">
+    <ul class="navigation">
+        <li><a class="active" href="index.html">Tool</a></li>
+        <li><a href="Documentation.html">Documentation</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <h1>
+        <br><img src="twist%20analyser%20logo.png" alt="logo" style="width:220px;height:169px;">
+    </h1>
+
+    <div id="results">
+        <br><br><button id= reset type="button" onclick="showInput()">Reset</button><br><br>
+    </div>
+
+    <div id="input">
+            <strong><br>Choose your parameters<br><br></strong>
+                <form id="Parameters" class = "forms">
+
+                    <label for="inc">I want to increment my strands</label>
+                        <input type="checkbox" id="inc"><br><br>
+
+                    <label for="SP">I want to include specie data in the output</label>
+                        <input type="checkbox" id="SP"><br><br>
+
+                    <label for="OV">I want to include metadata in the output</label>
+                        <input type="checkbox" id="OV"><br><br><br><br>
+
+                    <label for="GXY_num_check">I want to extract the collagen domain</label>
+                        <input type="checkbox" id="GXY_num_check"><br><br>
+                    <label for="GXY_num">The number of consecutive GXY units constituting a collagen domain is</label>
+                        <input type="text" id="GXY_num" value="3"><br><br>
+                </form>
+            <strong><br>AND<br><br></strong>
+            <strong>Choose your input type (only one at a time)<br><br></strong>
+
+            <strong><br>Run using PDB IDs (separate each IDs with a space)<br><br></strong>
+
+            <form id="PDBID" class = "forms">
+
+                <label for="DOMPDB">I want to run all known fibrillar collagen sequences on PDB</label>
+                    <input type="checkbox" id="DOMPDB"><br><br>
+                <label for="PDB">PDB IDs</label>
+                    <input type="text" id="PDB" value="1V7H 1V4F"><br><br>
+                <button id= submitPDBID type="button" onclick="checkParameters();processPDBID();serverComs()">Submit data</button><br><br>
+
+            </form>
+
+            <strong><br>OR<br><br></strong>
+
+            <strong>Run using Uniprot IDs (separate each IDs with a space)<br><br></strong>
+
+            <form id="UPID" class = "forms">
+                <label for="DOMUP">I want to run all known fibrillar collagen sequences on UniProt</label>
+                    <input type="checkbox" id="DOMUP"><br><br>
+                <label for="UP">Uniprot IDs</label>
+                    <input type="text" id="UP" value="P02453 O46392"><br><br>
+                <button id= submitUPID type="button" onclick="checkParameters();processUPID();serverComs()">Submit data</button><br><br>
+            </form>
+
+            <strong><br>OR<br><br></strong>
+
+            <strong>Run using your own sequence<br><br></strong>
+
+            <form id="UserInputText" class = "forms">
+
+                <label for=qname>Query name</label>
+                    <input type="text" id="qname" value="Myquery"><br><br>
+                <label for="Specie">Specie</label>
+                    <input type="text" id="Specie" value="Lorel Ipsum"><br><br>
+                <label for="s1">Strand 1 sequence</label>
+                    <input type="text" id="s1" value="GPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPGAS"><br><br>
+                <label for="s2">Strand 2 sequence</label>
+                    <input type="text" id="s2" value="GPMGLMGPRGPPGAAGAPGPQGFQGPAGEPGEPGQ"><br><br>
+                <label for="s3">Strand 3 sequence</label>
+                    <input type="text" id="s3" value="GPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPG"><br><br>
+
+                <button id= submitText type="button" onclick="checkParameters();userInputText();serverComs()">Submit data</button><br><br>
+
+            </form>
+
+            <strong><br>OR<br><br></strong>
+
+            <strong>Run by inputing a FASTA file<br></strong>
+
+            <div id="fileMessage">
+                <pre>Remember: Be mindful of file format</pre><a href="Documentation.html">click here</a><pre>for more info</pre>
+            </div><br>
+            <form id="UserFileInput" class = "forms">
+
+                <label for=qnamef>Query name</label>
+                    <input type="text" id="qnamef" value="Myquery"><br><br>
+                <label for="FileSpecie">Specie of my sequence</label>
+                    <input type="text" id="FileSpecie" value="Lorel Ipsum"><br><br>
+                <label for="UPfileType">My file follows UNIPROT FASTA format</label>
+                    <input type="radio" id="UPfileType" name="ft"><br>
+                <label for="PDBfileType">My file follows PDB FASTA format</label>
+                    <input type="radio" id="PDBfileType" name="ft"><br><br>
+
+                <br>Upload File: <input type="file" id="inputFile" /><br><br>
+
+                <button id= submitFile type="button" onclick="checkParameters();userInputFile();serverComs()">Submit data</button><br><br>
+
+            </form>
+
+        <pre id="fileDisplayArea"></pre>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿
+Lithobates catesbeiana
+
+ n= 1
+
+
+Average angle: 	-106.65369822485324
+Average Translation: 	2.8851331360947126
+
+Step	Frequency
+G11 	342
+G22 	28
+G00 	682
+G10 	242
+G20 	0
+G21 	58
+Total steps 	1352
+
+
+Step	Frequency (%)
+G11 	25.3
+G22 	2.07
+G00 	50.44
+G10 	17.9
+G20 	0.0
+G21 	4.29
+
+aa	%composition
+T	3.33
+S	6.21
+N	3.33
+F	1.53
+H	1.40
+G	28.82
+P	14.93
+R	5.40
+L	4.19
+D	3.70
+E	4.80
+I	2.29
+M	0.39
+C	0.59
+W	0.37
+A	9.16
+Q	2.51
+Z	0.00
+K	3.42
+Y	1.11
+X	0.00
+V	2.51

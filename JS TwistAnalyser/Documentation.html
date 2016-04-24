@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' >
+    <meta charset="UTF-8">
+    <title>TwistAnalyser</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body class="center">
+<ul class="navigation">
+    <li><a href="index2.html">Tool</a></li>
+    <li><a class="active" href="Documentation.html">Documentation</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+</ul>
+<br><br>
+<h1>
+    <img src="twist%20analyser%20logo.png" alt="logo" style="width:220px;height:169px;">
+</h1>
+    <h1>
+        Instructions
+    </h1><br>
+    <h2>
+        Purpose
+    </h2>
+    <p>
+        This program will allow you to predict structural features in collagen molecules using a provided amino acid sequence
+        according to a mathematical method published by Jordi Bella.
+        You can find the paper <a href="http://www.sciencedirect.com/science/article/pii/S1047847710000389">here.</a></p>
+
+    <h2>
+        Output
+    </h2>
+    <p>
+        For each individual collagen molecule processed the program will yield the amino acid composition for your input protein.
+        It will also give you a bar chart of the step distribution observed. A step is defined as a change in the amount of Proline
+        between 3 local residues at one location and the three next ones.</p>
+<p>
+
+        For example, the program inputs a collagen molecule with strand 1, 2, and 3 (Fibrillar collagen is always composed of 3 strands).
+        At the 30th amino acid on strands 1, 2, and 3 we have a Proline residue on strand 1 and 2, and at position 31 we get a Proline residue on strand3.
+        This will be labelled as a 2-1 step and the helical values predicted by the mathematical equation will be assigned to that location along
+        the collagen molecule. The values assigned are the internal triple helical twist (K°) and the internal triple helical translation t (Å)
+</p>
+<p>
+
+        It is important to note that since we do not have the 3D coordinates for each residues, we assign the helical values according to sample
+        values already calculated in Jordi Bella's paper. Those K and t values were predicted in fibrillar collagen, and the program
+        will therefore work best for fibrillar collagen molecules.
+    </p>
+<h2>
+    Additional features
+</h2>
+<p>
+    A collagen domain is often composed of repeating units of Glycine followed by 2 other amino acids (GXY).
+    By choosing the number of consecutive GXY units constituting a collagen domain in the parameters, you can extract your
+    collagen domain from your sequence.
+</p>
+    <h2>
+        Common errors
+    </h2>
+<p>
+    If you wish to work with PDB sequences, it is best to increment your strands and omit the domain extraction option.
+    This is because PDB collagen sequences are very small. They also have a disproportionally high P and G content. This is due to
+    experimental realities, since it is easier to get the 3D structure of those small molecules.
+</p>
+<p>
+    File handling on this website is done with html5, it will therefore work best with the latest browsers. Google Chrome is
+    recommended.
+</p>
+    <h2>File handling</h2>
+
+        <p>Uniprot files will be split at the first newline. Here is an example UniProt file:</p>
+        <pre>>sp|P02465|CO1A2_BOVIN Collagen alpha-2(I) chain OS=Bos taurus GN=COL1A2 PE=1 SV=2
+MLSFVDTRTLLLLAVTSCLATCQSLQEATARKGPSGDRGPRGERGPPGPPGRDGDDGIPG
+PPGPPGPPGPPGLGGNFAAQFDAKGGGPGPMGLMGPRGPPGASGAPGPQGFQGPPGEPGE
+PGQTGPAGARGPPGPPGKAGEDGHPGKPGRPGERGVVGPQGARGFPGTPGLPGFKGIRGH
+NGLDGLKGQPGAPGVKGEPGAPGENGTPGQTGARGLPGERGRVGAPGPAGARGSDGSVGP
+VGPAGPIGSAGPPGFPGAPGPKGELGPVGNPGPAGPAGPRGEVGLPGLSGPVGPPGNPGA
+NGLPGAKGAAGLPGVAGAPGLPGPRGIPGPVGAAGATGARGLVGEPGPAGSKGESGNKGE
+PGAVGQPGPPGPSGEEGKRGSTGEIGPAGPPGPPGLRGNPGSRGLPGADGRAGVMGPAGS
+RGATGPAGVRGPNGDSGRPGEPGLMGPRGFPGSPGNIGPAGKEGPVGLPGIDGRPGPIGP
+AGARGEPGNIGFPGPKGPSGDPGKAGEKGHAGLAGARGAPGPDGNNGAQGPPGLQGVQGG
+KGEQGPAGPPGFQGLPGPAGTAGEAGKPGERGIPGEFGLPGPAGARGERGPPGESGAAGP
+TGPIGSRGPSGPPGPDGNKGEPGVVGAPGTAGPSGPSGLPGERGAAGIPGGKGEKGETGL
+RGDIGSPGRDGARGAPGAIGAPGPAGANGDRGEAGPAGPAGPAGPRGSPGERGEVGPAGP
+NGFAGPAGAAGQPGAKGERGTKGPKGENGPVGPTGPVGAAGPSGPNGPPGPAGSRGDGGP
+PGATGFPGAAGRTGPPGPSGISGPPGPPGPAGKEGLRGPRGDQGPVGRSGETGASGPPGF
+VGEKGPSGEPGTAGPPGTPGPQGLLGAPGFLGLPGSRGERGLPGVAGSVGEPGPLGIAGP
+PGARGPPGNVGNPGVNGAPGEAGRDGNPGNDGPPGRDGQPGHKGERGYPGNAGPVGAAGA
+PGPQGPVGPVGKHGNRGEPGPAGAVGPAGAVGPRGPSGPQGIRGDKGEPGDKGPRGLPGL
+KGHNGLQGLPGLAGHHGDQGAPGAVGPAGPRGPAGPSGPAGKDGRIGQPGAVGPAGIRGS
+QGSQGPAGPPGPPGPPGPPGPSGGGYEFGFDGDFYRADQPRSPTSLRPKDYEVDATLKSL
+NNQIETLLTPEGSRKNPARTCRDLRLSHPEWSSGYYWIDPNQGCTMDAIKVYCDFSTGET
+CIRAQPEDIPVKNWYRNSKAKKHVWVGETINGGTQFEYNVEGVTTKEMATQLAFMRLLAN
+HASQNITYHCKNSIAYMDEETGNLKKAVILQGSNDVELVAEGNSRFTYTVLVDGCSKKTN
+EWQKTIIEYKTNKPSRLPILDIAPLDIGGADQEIRLNIGPVCFK</pre>
+    <p>PDB files are split at every newline, and every second elements
+        in the array will be considered a collagen strand. Here is an example file:</p>
+
+    <pre>>1V6Q:A|PDBID|CHAIN|SEQUENCE
+GPPGPPG
+>1V6Q:B|PDBID|CHAIN|SEQUENCE
+PGPPGPP
+>1V6Q:C|PDBID|CHAIN|SEQUENCE
+PPGPPGP
+</pre>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(0, 0, 255);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 3;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+script {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+    font-family: "Courier New";
+    border-collapse: collapse; border-spacing: 0;
+    border: 1px solid transparent;
+
+}
+
+td, th {
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+td {
+
+    table-layout: fixed;
+    width: 200px;
+    padding: 10px;
+    background: #F3F3F3; /* Light grey background */
+
+}
+
+th{
+    table-layout: fixed;
+    width: 200px;
+    padding: 10px;
+    background: lightgrey; /* Lighter grey background */
+}
+
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td { background: #F1F1F1; }
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */
+tr:nth-child(odd) td { background: #FEFEFE; }
+
+tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
+
+#results {
+    display: none;
+}
+
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+.abilities {
+    text-align: justify;
+}
+.navigation {
+    position:absolute;
+    left:40%;top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}

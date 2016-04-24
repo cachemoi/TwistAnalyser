@@ -8,6 +8,8 @@ GenCol generates random collagen sequences.
 
 RegInv checks if your helical features are register independent.
 
+A version of TwistAnalyser writted solely in Javascript/CSS/HTML can be found in the folder 'JSTwistAnalyser'
+
 You can find Jordi's paper here: http://www.sciencedirect.com/science/article/pii/S1047847710000389
 
 A website was built to interact with the script. You can find the website at http://maxbautzer.me/
